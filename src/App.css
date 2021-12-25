@@ -1,1 +1,14 @@
 
+.canvas {
+    background-color: #FFF;
+    border: 1px solid black;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3) ;
+    position: relative;
+}
+
+.point {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: red;
+}

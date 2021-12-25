@@ -1,10 +1,11 @@
 import './App.css';
+import SizeableCanvas from './components/SizeableCanvas'
 import Polygon from './components/Polygon'
 
 function App() {
   return (
     <div className="App">
-      <Polygon></Polygon>
+      <SizeableCanvas></SizeableCanvas>
     </div>
   );
 }
